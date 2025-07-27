@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: white;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    background-color: white;
+    padding: 0.8em 1em;
+    margin: 0%;
+    font-size: 15px;
+}
+
+.logo{
+    width: 130px;
+    cursor: pointer;
+    margin-top: -2em;
+    
+}
+.menu{
+    width: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 24px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 1px solid ;
+    line-height: 1.6;
+    
+}
+.hide-mobile{
+display: none;
+}
+
+.blue-button{
+    height: 20px;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    width: 50px;
+    text-align: center;
+    margin-top: 29px;
+    margin-left: 450px;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0em;
+    background-color: white;
+    margin-bottom: -284px;
+}
+
+.left-text{
+    margin-top: 8%;
+    font-family: monospace;
+    font-size: x-large;
+    font-weight: 600;
+}
+.buttons{
+    color: white;
+    background-color: blue;
+    border-radius: 4em;
+    border: none;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+    height: 50px;
+}
+.right-image{
+    justify-content: center;
+    align-items: center;
+    min-height: 74vh;
+    left: 20%;
+    margin-top:19px;
+}
+
+.dark-bluecontainer{
+    padding: 4%;
+    text-align: left;
+    background-image: url(images/last3.jpg);
+}
+.content{
+display: flex;
+justify-content: space-evenly;
+gap: 1em;
+}
+blockquote{
+   max-width: 600%; 
+   margin:50px auto ;
+   padding: 19px;
+   background-color: white;
+   border: white;
+   color: black; 
+   border-radius: 20px;
+    border: 2px solid lightgrey
+}
+.redbutton{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    font-size: smaller;
+    align-items: center;
+    margin: 15px;
+}
+.time-box{
+    background-color: black;
+    color: rgb(101, 99, 99);
+    list-style-type: none;
+    padding: 20px;
+    
+}
+.timer{
+    display: grid;
+    justify-content: center;
+}
+
+.timer,h3{
+    color: white;
+}
+
+.timer, h2 h5{
+    color: grey;
+}
+
+.activities{
+    display: inline-flex;
+}
+.white-container{
+    background-color: white;
+    text-align: center;
+     font-size: x-small;
+}
+.white-container, h3{
+    text-align: center;
+    padding: 50% auto;
+    margin: 20px;
+    word-spacing: 20%;
+}
+
+.Pictures{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text{
+    text-align: center;
+}
+.redbox{
+    margin: 0%; 
+    padding: 0%;
+    background-color: red;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     display: grid; 
+    gap: 1em;
+    font-size: medium;
+ 
+}
+
+.email{
+    width: 750px;
+    height: 28px;
+    display: grid;
+    grid-column: 2 auto;    
+}
+
+.Move{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    gap: 9%;
+    margin-bottom: 4%;
+}
+.darkred{
+    color: rgb(155, 144, 144);
+    width: 758px;
+    height: 30px;
+    background-color: rgb(63, 11, 11);
+    border: none;
+}
+.black-container{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    height:500px;
+    display: flex;
+    flex-direction: row;
+
+} 
+
+.inner-column{
+    width: 15%;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+  .link-list{
+    display: block;
+  }
+
+ 
+  ul li {
+    color:rgb(187, 186, 186);
+    list-style: disc;
+  }
+
+  .no-bullet {
+    list-style-type: none;
+  }
+
+  .footer{
+    background-color: black;
+    color: white;
+  }
+
+  img.icon{
+    width:  26px;
+    height: 18px;
+    float: right;
+  }
+
+  .card{
+    background-color: #ffffff;
+    height: 250px;
+    width: 33%;
+    margin: 10px;
+    padding: 15px;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid lightgrey
+  }
+
+  .custom-white-button {
+    background-color: white;
+    max-width: 150px;
+    height: 35px;
+    color: black;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 3px;
+    border: 2px solid lightgrey;
+}
